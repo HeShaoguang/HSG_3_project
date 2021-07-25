@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/background.jpg</file>
+        <file>images/background2.jpg</file>
+        <file>images/bomb-1.png</file>
+        <file>images/bomb-2.png</file>
+        <file>images/bomb-3.png</file>
+        <file>images/bomb-4.png</file>
+        <file>images/bomb-5.png</file>
+        <file>images/bomb-6.png</file>
+        <file>images/bomb-7.png</file>
+        <file alias="green_1.png">images/down_green.png</file>
+        <file alias="red_1.png">images/down_red.png</file>
+        <file alias="green_2.png">images/left_green.png</file>
+        <file alias="red_2.png">images/left_red.png</file>
+        <file alias="green_5.png">images/ni_green.png</file>
+        <file alias="red_5.png">images/ni_red.png</file>
+        <file alias="green_3.png">images/right_green.png</file>
+        <file alias="red_3.png">images/right_red.png</file>
+        <file alias="green_4.png">images/shun_green.png</file>
+        <file alias="red_4.png">images/shun_red.png</file>
+        <file>images/sky.jpg</file>
+        <file alias="green_0.png">images/up_greeen.png</file>
+        <file alias="red_0.png">images/up_red.png</file>
+        <file>images/data_background.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DatabaseWidget</class>
+ <widget class="QWidget" name="DatabaseWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>799</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="loginButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>10</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border: 1px solid black;
+	border-radius: 15px;
+	font: 14pt &quot;楷体&quot;;
+	color:black;
+	background-color:rgba(255, 255, 0, 60)
+}</string>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="middleLabel">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>230</y>
+     <width>331</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+	border: 1px solid black;
+	border-radius: 15px;
+	font: 20pt &quot;楷体&quot;;
+	color:black;
+	background-color:rgb(255, 255, 0)
+}</string>
+   </property>
+   <property name="text">
+    <string>请刷卡登录</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLabel">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>321</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+	border: 1px solid black;
+	border-radius: 15px;
+	font: 14pt &quot;楷体&quot;;
+	color:black;
+	background-color:rgba(255, 255, 0, 60)
+}</string>
+   </property>
+   <property name="text">
+    <string>当前用户ID：</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="returnButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border: 1px solid black;
+	border-radius: 15px;
+	font: 14pt &quot;楷体&quot;;
+	color:black;
+	background-color:rgba(255, 255, 0, 60)
+}</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+
+	border-radius: 15px;
+	font: 14pt &quot;楷体&quot;;
+		color:rgb(243, 243, 243);
+}</string>
+   </property>
+   <property name="text">
+    <string>当前用户游戏记录：</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="nowTableView1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>391</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableView
+{
+	border: 0px solid black;
+	background-color:rgba(170, 255, 255, 150)
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label1_2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>70</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+
+	border-radius: 15px;
+	font: 14pt &quot;楷体&quot;;
+	color:rgb(243, 243, 243);
+}</string>
+   </property>
+   <property name="text">
+    <string>贪吃蛇游戏最高分：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label1_3">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>270</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+
+	border-radius: 15px;
+	font: 14pt &quot;楷体&quot;;
+		color:rgb(243, 243, 243);
+}</string>
+   </property>
+   <property name="text">
+    <string>协调游戏游戏最高分：</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="nowTableView2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>100</y>
+     <width>341</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableView
+{
+	border: 0px solid black;
+	background-color:rgba(170, 255, 255, 150)
+}</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="nowTableView3">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>300</y>
+     <width>341</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableView
+{
+	border: 0px solid black;
+	background-color:rgba(170, 255, 255, 150)
+}</string>
+   </property>
+  </widget>
+  <zorder>loginButton</zorder>
+  <zorder>idLabel</zorder>
+  <zorder>returnButton</zorder>
+  <zorder>label1</zorder>
+  <zorder>nowTableView1</zorder>
+  <zorder>label1_2</zorder>
+  <zorder>label1_3</zorder>
+  <zorder>nowTableView2</zorder>
+  <zorder>nowTableView3</zorder>
+  <zorder>middleLabel</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GestureGame</class>
+ <widget class="QWidget" name="GestureGame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>791</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="lifeLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+	border: 1px solid black;
+	border-radius: 15px;
+	font: 14pt &quot;楷体&quot;;
+	color:black;
+	background-color:rgba(255, 255, 0, 60)
+}</string>
+   </property>
+   <property name="text">
+    <string>生命：10</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border: 1px solid black;
+	border-radius: 15px;
+	font: 14pt &quot;楷体&quot;;
+	color:black;
+	background-color:rgba(255, 255, 0, 60)
+}</string>
+   </property>
+   <property name="text">
+    <string>开始</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pointLabel">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>10</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+	border: 1px solid black;
+	border-radius: 15px;
+	font: 14pt &quot;楷体&quot;;
+	color:black;
+	background-color:rgba(255, 255, 0, 60)
+}</string>
+   </property>
+   <property name="text">
+    <string>分数：0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="overLabel">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>340</y>
+     <width>291</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+	border: 1px solid black;
+	border-radius: 15px;
+	font: 14pt &quot;楷体&quot;;
+	color:black;
+	background-color:rgb(255, 255, 0)
+}</string>
+   </property>
+   <property name="text">
+    <string>游戏结束，总得分：0分</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="returnButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border: 1px solid black;
+	border-radius: 15px;
+	font: 14pt &quot;楷体&quot;;
+	color:black;
+	background-color:rgba(255, 255, 0, 60)
+}</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

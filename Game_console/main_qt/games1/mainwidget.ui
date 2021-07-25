@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWidget</class>
+ <widget class="QWidget" name="MainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWidget</string>
+  </property>
+  <widget class="QPushButton" name="snakeButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>281</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border-image:url(:/images/images/sky.jpg);
+	
+	
+	font: 28pt &quot;黑体&quot;;
+	
+	color:rgb(72, 255, 17);
+}</string>
+   </property>
+   <property name="text">
+    <string>基于姿态
+识别控制
+贪吃蛇游戏</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="gestureButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>0</y>
+     <width>281</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border-image:url(:/images/images/background2.jpg);
+	
+		
+	font: 28pt &quot;黑体&quot;;
+	
+	color: rgb(172, 255, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>基于手势
+识别控制
+协调游戏</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dataButton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>0</y>
+     <width>241</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border-image:url(:/images/images/data_background.jpg);
+	
+		
+	font: 28pt &quot;黑体&quot;;
+	
+	color:rgb(255, 170, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>个人中心
+游戏排名</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
